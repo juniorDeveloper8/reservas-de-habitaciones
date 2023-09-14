@@ -1,0 +1,87 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 11/09/2023, 23:47:21
+    Author     : rober
+*/
+
+/* Estilo para la habitación */
+.habitacion-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.habitacion-card {
+    display: flex;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 80%;
+}
+
+.imagen {
+    flex: 1;
+}
+
+.imagen img {
+    width: 100%;
+    height: auto;
+}
+
+.descripcion {
+    flex: 1;
+    padding: 20px;
+}
+
+.descripcion h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.descripcion p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.iconos {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.iconos span {
+    margin-right: 20px;
+}
+
+.button {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #0056b3;
+}
+
+table {
+    width: 60%;
+    margin: 0 auto;
+    border-collapse: collapse;
+  }
+
+  th, td {
+    border: 1px solid #dddddd;
+    text-align: center;
+    padding: 8px;
+  }
+
+  

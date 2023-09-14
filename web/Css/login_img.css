@@ -1,0 +1,20 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 12/09/2023, 1:38:55
+    Author     : rober
+*/
+
+.image {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 50%; /* La mitad de la página en sentido horizontal */
+            height: 100vh; /* Toda la altura de la pantalla en sentido vertical */
+            background-image: url(../img/login.jpg);
+            background-size: cover;
+            z-index: 0; /* Coloca la imagen de fondo en una capa inferior */
+        }

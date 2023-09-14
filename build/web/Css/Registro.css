@@ -1,0 +1,49 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 12/09/2023, 9:43:31
+    Author     : rober
+*/
+.body{
+    background: url("../img/fon_re.jpg") no-repeat;
+
+    overflow-y: hidden;
+}
+
+.container_card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: url("../img/fon_re.jpg") no-repeat; /* Reemplaza 'ruta-de-tu-imagen.jpg' con la ruta de tu imagen de fondo */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    animation: backgroundScroll 20s linear infinite; /* Añade la animación */
+}
+.container_card_ani {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    background: url("../img/fon_re.jpg") no-repeat; /* Reemplaza 'ruta-de-tu-imagen.jpg' con la ruta de tu imagen de fondo */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    animation: backgroundScroll 20s linear infinite; /* Añade la animación */
+}
+
+/* Definición de la animación */
+@keyframes backgroundScroll {
+    0% {
+        background-position: 0% 50%;
+    }
+    100% {
+        background-position: 100% 50%;
+    }
+}
+
+

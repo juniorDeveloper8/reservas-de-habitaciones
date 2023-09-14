@@ -1,0 +1,57 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 12/09/2023, 1:14:34
+    Author     : rober
+*/
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #fff;
+    overflow: hidden; /* Evita que el contenido haga scroll */
+}
+
+.container {
+    position: relative;
+    left: 25%;
+    display: flex;
+    justify-content: center;
+   
+    border: 1px solid #fff;
+    padding: 20px;
+    width: 50%; /* La mitad de la página en sentido horizontal */
+    max-width: 800px; /* Ancho máximo para evitar distorsiones */
+    z-index: 1; /* Asegura que el cuadro de inicio de sesión esté en la capa superior */
+}
+.form {
+    width: 50%; /* La mitad de la página en sentido horizontal */
+    padding: 20px;
+    z-index: 1; /* Asegura que el cuadro de inicio de sesión esté en la capa superior */
+}
+
+.form h2 {
+    text-align: center;
+}
+
+.form label,
+.form input {
+    display: block;
+    margin-bottom: 10px;
+    width: 100%; /* Ajusta el ancho de los elementos al 100% */
+}
+
+.form input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
